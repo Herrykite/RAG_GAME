@@ -1,0 +1,44 @@
+# 基础框架
+fastapi                    # API框架
+uvicorn                    # ASGI服务器
+pydantic                   # 数据验证
+python-dotenv              # 环境变量管理
+
+# 自然语言处理
+transformers               # Hugging Face模型
+sentence-transformers      # 句子嵌入
+spacy                      # 文本处理
+ltp                        # 中文分词器
+rouge-score                # 文本相似度评估
+py-rouge                   # 文本生成评估
+nltk                       # 自然语言分词提供指标评估支持
+
+# 数据库
+networkx                   # 添加轻量级图处理库
+chromadb                   # Chroma轻量级向量数据库
+
+# 知识图谱
+pykeen                     # 知识图谱嵌入
+rdflib                     # RDF处理
+
+# LLM
+langchain                  # 大语言模型应用开发框架
+langchain_community        # 社区贡献的额外工具集成
+langchain-openai           # 新版ChatOpenAI所在包
+langchain-core             # PromptTemplate 导入路径修正
+openai                     # Open AI官方SDK依赖
+
+# 其他工具
+beautifulsoup4             # HTML/XML解析
+numpy                      # 数值计算
+torch                      # PyTorch深度学习框架
+scikit-learn               # 机器学习工具
+tqdm                       # 进度条
+python-multipart           # 表单解析
+typing-extensions          # 类型扩展
+
+# 开发依赖
+black                      # 代码格式化
+flake8                     # 代码检查
+mypy                       # 类型检查
+pytest                     # 测试框架
